@@ -1,0 +1,11 @@
+streamlit==1.38.0
+geopandas==0.14.3
+langchain==0.2.12
+langchain-openai==0.1.7
+langchain-experimental==0.0.47
+python-dotenv==1.0.1
+shapely==2.0.3
+fiona==1.9.6
+pyproj==3.6.1
+rtree==1.1.0
+requests==2.31.0

@@ -1,16 +1,16 @@
 # Core dependencies
-streamlit==1.38.0
-langchain==0.2.12
-langchain-openai==0.1.7
-langchain-experimental==0.0.47
-python-dotenv==1.0.1
-requests==2.31.0
+streamlit
+langchain==0.1.14
+langchain-openai==0.0.6
+langchain-experimental
+python-dotenv
+
+groq
 
 # Geospatial stack (install in correct order)
-numpy==1.26.4
-pandas==2.2.2
+
 shapely==2.0.3
-fiona==1.9.6
+fiona==1.9.5
 pyproj==3.6.1
-rtree==1.1.0
+rtree==1.0.1
 geopandas==0.14.3

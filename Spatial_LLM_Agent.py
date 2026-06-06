@@ -1,4 +1,6 @@
 import os
+import json
+import faiss
 import streamlit as st
 import geopandas as gpd
 from langchain_openai import ChatOpenAI
@@ -6,6 +8,8 @@ from langchain.agents import initialize_agent, Tool
 from langchain.agents import AgentType
 from langchain_experimental.utilities.python import PythonREPL
 from dotenv import load_dotenv
+from langchain.vectorstores import FAISS
+from langchain.schema import Document
 
 # -----------------------------
 # Load environment variables
